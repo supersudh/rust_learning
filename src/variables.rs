@@ -4,9 +4,8 @@
 
 pub fn run() {
     let name = "San Redux";
-    let age = 30;
-
-    // age = 100 // ERROR!
-
-    println!("My name is {} and I am {}", name, age)
+    let mut age = 30;
+    println!("My name is {} and I am {}", name, age); // [supersudh]sequence of code line is important here
+    age = 100; // Reassign/mutate only for reuse in subsequent lines
+    println!("My name is {} and I am {}", name, age); // Note to self: Sequence of code is important in Rust
 }
