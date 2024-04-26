@@ -26,4 +26,10 @@ pub fn run() {
     // for hex trait is :x
     // for octal trait is :o
     println!("Binary {:b} Hex: {:x} Octal: {:o}", 10, 10, 10);
+
+    // Placeholder for debug trait
+    println!("{:?}", (12, true, "Hola!"));
+
+    // Math ops
+    println!("23 + 243 = {}", 23 + 243)
 }
