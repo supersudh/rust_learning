@@ -4,6 +4,9 @@
 
 pub fn run() {
     let name = "San Redux";
+    let age = 30;
 
-    println!("My name is {}", name)
+    // age = 100 // ERROR!
+
+    println!("My name is {} and I am {}", name, age)
 }
