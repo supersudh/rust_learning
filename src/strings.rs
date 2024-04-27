@@ -23,5 +23,24 @@ pub fn run() {
     println!("Contains 'World' {}", hello.contains("World"));
     println!("Contains 'SUDHARSAN' {}", hello.contains("SUDHARSAN"));
 
+    // Replace
+    println!("Replace: {}", hello.replace("SUDHARSAN", "RAVIKUMAR")); // functional programming ?? 😕
+
+    // Loop through string by whitespace so we can use a for loop
+    for word in hello.split_whitespace() {
+        println!("{}", word)
+    }
+
+    // Create string with capacity
+    let mut s = String::with_capacity(10);
+    s.push('x');
+    s.push('y');
+
+    // Assertion testing
+    assert_eq!(2, s.len());
+
+    assert_eq!(3, s.len()); // This apparently throws false
+    assert_eq!(10, s.capacity()); // This apparently doesn't throw
+
     println!("{}", hello)
 }
