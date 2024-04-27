@@ -3,12 +3,14 @@
 // mod types;
 // mod strings;
 // mod tuples;
-mod arrays;
+// mod arrays;
+mod vectors;
 
 fn main() {
     // println!("Hello, world!"); // [supersudh] deprecated
     // print::run()
     // variables::run();
     // tuples::run();
-    arrays::run();
+    // arrays::run();
+    vectors::run();
 }
