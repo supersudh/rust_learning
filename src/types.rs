@@ -19,10 +19,19 @@ pub fn run() {
 
     let z: i64 = 208934702937480234;
 
-     println!("Max i32: {}", std::i32::MAX); // Find max size // [supersudh] std is standard library
-     println!("Max i64: {}", std::i64::MAX); // Find max size
+    println!("Max i32: {}", std::i32::MAX); // Find max size // [supersudh] std is standard library
+    println!("Max i64: {}", std::i64::MAX); // Find max size
 
-     let is_active = true;
+    // Boolean
+    let is_active = true;
 
-     println!("{:?}", (x, y, z, is_active))
+    // Get boolean from expression
+    let is_greater = 10 > 5;
+
+    let a1 = 'a'; // Using single quote for char
+                  //  let face = '\u{1F600}'; TODO: supersudh [Emojis are not supported 😔 ]
+
+    //  let errorChar ='akjsd' // do not use more than one char in single quotes in RUST
+
+    println!("{:?}", (x, y, z, is_active, is_greater, a1)) // We wish we fixed the error ^^ 😔
 }
