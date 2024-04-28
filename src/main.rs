@@ -7,7 +7,8 @@
 // mod vectors;
 // mod conditionals;
 // mod loops;
-mod functions;
+// mod functions;
+mod pointer_refs;
 
 fn main() {
     // println!("Hello, world!"); // [supersudh] deprecated
@@ -18,5 +19,6 @@ fn main() {
     // vectors::run();
     // conditionals::run();
     // loops::run();
-    functions::run();
+    // functions::run();
+    pointer_refs::run();
 }
