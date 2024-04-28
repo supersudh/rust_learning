@@ -5,7 +5,8 @@
 // mod tuples;
 // mod arrays;
 // mod vectors;
-mod conditionals;
+// mod conditionals;
+mod loops;
 
 fn main() {
     // println!("Hello, world!"); // [supersudh] deprecated
@@ -14,5 +15,6 @@ fn main() {
     // tuples::run();
     // arrays::run();
     // vectors::run();
-    conditionals::run()
+    // conditionals::run();
+    loops::run();
 }
