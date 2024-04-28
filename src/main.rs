@@ -8,7 +8,9 @@
 // mod conditionals;
 // mod loops;
 // mod functions;
-mod pointer_refs;
+// mod pointer_refs;
+mod structs;
+
 
 fn main() {
     // println!("Hello, world!"); // [supersudh] deprecated
@@ -20,5 +22,6 @@ fn main() {
     // conditionals::run();
     // loops::run();
     // functions::run();
-    pointer_refs::run();
+    // pointer_refs::run();
+    structs::run();
 }
