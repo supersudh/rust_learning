@@ -11,7 +11,8 @@
 // mod pointer_refs;
 // mod structs;
 // mod enums;
-mod cli;
+// mod cli;
+mod credits;
 
 fn main() {
     // println!("Hello, world!"); // [supersudh] deprecated
@@ -26,5 +27,6 @@ fn main() {
     // pointer_refs::run();
     // structs::run();
     // enums::run();
-    cli::run();
+    // cli::run();
+    credits::credits();
 }
