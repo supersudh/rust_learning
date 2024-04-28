@@ -10,7 +10,8 @@
 // mod functions;
 // mod pointer_refs;
 // mod structs;
-mod enums;
+// mod enums;
+mod cli;
 
 fn main() {
     // println!("Hello, world!"); // [supersudh] deprecated
@@ -24,5 +25,6 @@ fn main() {
     // functions::run();
     // pointer_refs::run();
     // structs::run();
-    enums::run();
+    // enums::run();
+    cli::run();
 }
